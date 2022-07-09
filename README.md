@@ -2,4 +2,4 @@
 
 [Paper (ECCV 2022)]()
 
-![SPMPGAN teaser](apps.jpg)
+![SPMPGAN teaser](images/apps.jpg)
