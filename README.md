@@ -17,6 +17,7 @@ Download [Cityscapes](https://www.cityscapes-dataset.com/) or [ADE20K](http://da
 - `images/`: Original images.
 - `labels/`: Segmentation maps.
 - `inst_map/`(optional): Instance maps for generating edge maps. We find edge maps only have a slight impact. If there is no instance map, it can be omitted or replaced with segmentation map.
+
 We include some examples in `data/`, so you can run the training without preparing the dataset.
 
 Train a model:
