@@ -32,7 +32,8 @@ Download pretrained model from [BaiDuYun (password:z6jz)](https://pan.baidu.com/
 test.py --dataset_name cityscapes  --ckt_path pretrained_models/cityscapes.pth --image_path data_test/input.jpg --segmap_path data_test/segmap_1.png --mask_path  data_test/mask_1.png
 ```
 
-## BibTex:
+## Citation:
+If you use this code for your research, please cite our papers.
 ```
 
 ```
