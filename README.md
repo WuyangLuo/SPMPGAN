@@ -33,7 +33,7 @@ test.py --dataset_name cityscapes  --ckt_path pretrained_models/cityscapes.pth -
 ```
 
 ## Citation:
-If you use this code for your research, please cite our papers.
+If you use this code for your research, please cite our paper.
 ```
 
 ```
