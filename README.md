@@ -13,7 +13,7 @@ Wuyang Luo, Su Yang, Hong Wang, Bo Long, Weishan Zhang
 ## Training
 
 ### Dataset Preparation
-Download [Cityscapes](https://www.cityscapes-dataset.com/) or [ADE20K](http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip). Create folder `data/dataset_name/` with subfolders `train/` and `tes/t`. `train/` and `test/` should each have their own subfolders `images/`, `labels/`, `inst_map/`.
+Download [Cityscapes](https://www.cityscapes-dataset.com/) or [ADE20K](http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip). Create folder `data/dataset_name/` with subfolders `train/` and `test/`. `train/` and `test/` should each have their own subfolders `images/`, `labels/`, `inst_map/`.
 - `images/`: Original images.
 - `labels/`: Segmentation maps.
 - `inst_map/`(optional): Instance maps for generating edge maps. We find edge maps only have a slight impact. If there is no instance map, it can be omitted or replaced with segmentation map.
