@@ -1,4 +1,4 @@
-# Context-Consistent Semantic Image Editing with Style-Preserved Modulation
+# Context-Consistent Semantic Image Editing with Style-Preserved Modulation (ECCV 2022)
 
 Wuyang Luo, Su Yang, Hong Wang, Bo Long, Weishan Zhang
 
