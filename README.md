@@ -4,7 +4,7 @@ Wuyang Luo, Su Yang, Hong Wang, Bo Long, Weishan Zhang
 
 [Paper (ArXiv)](https://arxiv.org/pdf/2207.06252.pdf)
 
-![SPMPGAN teaser](images/apps.jpg)
+![SPMPGAN teaser](images/app.jpg)
 
 ## Requirements
 
