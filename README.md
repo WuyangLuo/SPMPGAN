@@ -35,11 +35,13 @@ test.py --dataset_name cityscapes  --ckt_path pretrained_models/cityscapes.pth -
 ## Citation:
 If you use this code for your research, please cite our paper.
 ```
-@article{luo2022context,
+@inproceedings{luo2022context,
   title={Context-Consistent Semantic Image Editing with Style-Preserved Modulation},
   author={Luo, Wuyang and Yang, Su and Wang, Hong and Long, Bo and Zhang, Weishan},
-  journal={arXiv preprint arXiv:2207.06252},
-  year={2022}
+  booktitle={European Conference on Computer Vision},
+  pages={561--578},
+  year={2022},
+  organization={Springer}
 }
 ```
 
