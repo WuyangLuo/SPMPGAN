@@ -27,7 +27,7 @@ train.py --dataset_name cityscapes
 
 ## Testing
 
-Download pretrained model from [BaiDuYun (password:z6jz)](https://pan.baidu.com/s/1u4QZALqPjPTvJ5Fr9UIGAQ) | [GoogleDrive](https://drive.google.com/file/d/17FXdCFWx44NiBGW6erM-cJzcW1GpvM3l/view?usp=sharing), run
+Download pretrained model from [BaiDuYun (password:fp4v)](https://pan.baidu.com/s/12S8Ix136UhaUs8j8qyDWeA) | [GoogleDrive](https://drive.google.com/file/d/17FXdCFWx44NiBGW6erM-cJzcW1GpvM3l/view?usp=sharing), run
 ```python 
 test.py --dataset_name cityscapes  --ckt_path pretrained_models/cityscapes.pth --image_path data_test/input.jpg --segmap_path data_test/segmap_1.png --mask_path  data_test/mask_1.png
 ```
