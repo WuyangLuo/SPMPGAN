@@ -15,11 +15,11 @@ boundary between the generated regions and the known pixels.
 
 ![SPMPGAN teaser](images/app.jpg)
 
-## Requirements
+### Requirements
 
 - The code has been tested with PyTorch 1.10.1 and Python 3.7.11. We train our model with a NIVIDA RTX3090 GPU.
 
-## Training
+### Training
 
 ### Dataset Preparation
 Download [Cityscapes](https://www.cityscapes-dataset.com/) or [ADE20K](https://groups.csail.mit.edu/vision/datasets/ADE20K/). Create folder `data/dataset_name/` with subfolders `train/` and `test/`. `train/` and `test/` should each have their own subfolders `images/`, `labels/`, `inst_map/`.
@@ -34,14 +34,14 @@ Train a model:
 train.py --dataset_name cityscapes
 ```
 
-## Testing
+### Testing
 
 Download pretrained model from [BaiDuYun (password:fp4v)](https://pan.baidu.com/s/12S8Ix136UhaUs8j8qyDWeA) | [GoogleDrive](https://drive.google.com/file/d/1rBt9LS8ZueQnOwplIGNED2B22on1VvUd/view?usp=sharing), run
 ```python 
 test.py --dataset_name cityscapes  --ckt_path pretrained_models/cityscapes.pth --image_path data_test/input.jpg --segmap_path data_test/segmap_1.png --mask_path  data_test/mask_1.png
 ```
 
-## Citation:
+### Citation:
 If you use this code for your research, please cite our paper.
 ```
 @inproceedings{luo2022context,
@@ -54,5 +54,5 @@ If you use this code for your research, please cite our paper.
 }
 ```
 
-## Acknowledgment
+### Acknowledgment
 Our code is developed based on [SPADE](https://github.com/NVlabs/SPADE).
