@@ -1,5 +1,5 @@
 ### Context-Consistent Semantic Image Editing with Style-Preserved Modulation
-ECCV 2022 [[Paper] (ArXiv)](https://arxiv.org/pdf/2207.06252.pdf)
+ECCV 2022 [[Paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136770564.pdf)
 
 Semantic image editing utilizes local semantic label maps to
 generate the desired content in the edited region. A recent work borrows
